@@ -337,12 +337,15 @@ img {
   width: 65%;
 }
 
-.skills__ux {
-  width: 85%;
+.skills__python {
+  width: 95%;
 }
 
 .skills__img {
   border-radius: .5rem;
+}
+.skills__react{
+  width: 50%;
 }
 
 /* ===== WORK =====*/
