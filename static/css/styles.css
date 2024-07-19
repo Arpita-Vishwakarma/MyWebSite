@@ -273,8 +273,9 @@ img {
 }
 
 .about__img img {
-  width: 200px;
+  width: 300px;
   border-radius: .5rem;
+  padding: 2px;
 }
 
 /* ===== SKILLS =====*/
