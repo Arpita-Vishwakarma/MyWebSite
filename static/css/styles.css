@@ -344,7 +344,8 @@ img {
 .skills__img {
   border-radius: .5rem;
 }
-.skills__react{
+
+.skills__react {
   width: 50%;
 }
 
@@ -560,5 +561,55 @@ img {
 
   .home__img {
     width: 450px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  .about__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* Center text for better readability */
+  }
+
+  .about__container div {
+    margin-bottom: 20px;
+    /* Add space between elements */
+  }
+
+  /* Ensure image and text are vertically aligned */
+  .about__container>div:first-child {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .about__container>div:first-child img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .about__subtitle,
+  .about__text {
+    width: 100%;
+  }
+
+  /* Make the third text container 95% of the mobile screen width */
+  .about__text-container_thirdone {
+    width: 95%;
+    padding: 10px;
+    /* Add some padding for better text readability */
+    box-sizing: border-box;
+    /* Ensure padding doesn't affect overall width */
+  }
+
+  .about__text-container_thirdone p {
+    margin-bottom: 15px;
+    /* Add spacing between paragraphs */
   }
 }
